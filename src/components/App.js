@@ -17,6 +17,7 @@ function App() {
             width={[1 / 2]}
             bg="background"
             flexDirection={['column', 'row']}
+            alignItems={['center', 'flex-start']}
           >
             <Main />
           </Flex>
