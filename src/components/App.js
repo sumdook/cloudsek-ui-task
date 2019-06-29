@@ -13,7 +13,11 @@ function App() {
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <Container>
-          <Flex width={[1 / 2]}>
+          <Flex
+            width={[1 / 2]}
+            bg="background"
+            flexDirection={['column', 'row']}
+          >
             <Main />
           </Flex>
         </Container>
@@ -27,7 +31,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: ${props => props.theme.colors.background};
 `;
 

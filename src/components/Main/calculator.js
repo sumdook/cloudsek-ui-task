@@ -30,7 +30,7 @@ export default function Calculator({
     { value: '+', type: 'operator', action: handleOperatorClick }
   ];
   return (
-    <Flex style={{ minWidth: 300 }} flexDirection="column">
+    <Flex style={{ minWidth: 300 }} flexDirection="column" my={[40, 0]}>
       <Flex
         width={1}
         bg="primary"

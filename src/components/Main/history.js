@@ -6,10 +6,10 @@ export default function History({ history }) {
   const [toggle, set] = React.useState('true');
   return (
     <Flex
-      width="500px"
-      style={{ minWidth: 400 }}
+      style={{ minWidth: 300 }}
       flexDirection="column"
-      pl={100}
+      alignItems={['center', 'flex-start']}
+      pl={[0, 100]}
     >
       <Button
         variant="show"
