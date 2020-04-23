@@ -1,4 +1,4 @@
-This task is live on [cloudsek-ui-task.netlify.com](https://cloudsek-ui-task.netlify.com/).
+
 
 ## Running Onstructions
 
